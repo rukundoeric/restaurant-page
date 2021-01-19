@@ -3,6 +3,7 @@ import header from './components/layouts/header';
 import menu from './components/layouts/menu';
 import home from './components/layouts/home';
 import contact from './components/layouts/contact';
+import { ConcatenationScope } from 'webpack';
 
 const content = document.getElementById('content');
 const tabContent = new element().create('div').class('tab-content');
