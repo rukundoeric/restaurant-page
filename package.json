@@ -11,9 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "10.1.x",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
     "eslint": "6.8.x",
     "eslint-config-airbnb-base": "14.1.x",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "2.20.x",
     "file-loader": "^6.2.0",
     "postcss-loader": "^4.1.0",

@@ -8,7 +8,7 @@ export const navigateToHome = () => {
     menu.classList.remove('active');
     contact.classList.remove('active');
   }
-}
+};
 
 export const navigateToMenu = () => {
   const home = document.getElementById('home');
@@ -20,7 +20,7 @@ export const navigateToMenu = () => {
     home.classList.remove('active');
     contact.classList.remove('active');
   }
-}
+};
 
 export const navigateToContact = () => {
   const home = document.getElementById('home');
@@ -32,4 +32,4 @@ export const navigateToContact = () => {
     menu.classList.remove('active');
     home.classList.remove('active');
   }
-}
+};
